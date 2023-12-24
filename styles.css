@@ -1,0 +1,89 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(239, 231, 231);
+    background-color: #8fc7ff;
+}
+
+.container {
+    max-width: 600px;
+    margin: 6% auto;
+    background-color: #505d81;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* question side */
+#qSide {
+    font-family: 'Lora', serif;
+    padding: 0;
+    margin-right: 5%;
+}
+
+/* has question and question heading  */
+.quiz-container {
+    margin: 10% 2% 10% 2%;
+}
+
+/* bold text saying "Question" */
+#quiz-container h1 {
+    position: relative;
+    bottom: 80px;
+    margin-top: 0;
+    width: 250px;
+}
+
+/* Actual question of the quiz  */
+#quiz-container p {
+    position: relative;
+    bottom: 80px;
+    margin-top: 0;
+    width: 270px;
+    font-size: 20px;
+    text-align: left;
+}
+
+/* options side  */
+#aSide {
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 20px;
+    width: 250px;
+    border: 2px solid #89bce7;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+
+li:hover {
+    background-color: #7e88a1;
+}
+
+button {
+    background-color: #fff8ec;
+    font-weight: bolder;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #befdff;
+}

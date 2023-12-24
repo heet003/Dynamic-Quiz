@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Lora&family=Roboto+Mono&display=swap"
+            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        <title>Dynamic Quiz</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <h1>Dynamic Quiz</h1>
+            </header>
+            <main>
+                <table>
+                    <tr>
+                        <td id="qSide">
+                            <div class="quiz-container" id="quiz-container">
+                                <h1>Question <span id="questionNumber"></span></h1>
+                                <p id="question"></p>
+                            </div>
+                        </td>
+                        <td id="aSide">
+                            <div id="options-container">
+                                <ul>
+                                    <li><input type="radio" name="ques" id="radio0" class="A"><label for="radio0">
+                                        </label>
+                                    </li>
+                                    <li><input type="radio" name="ques" id="radio1" class="B"><label for="radio1">
+                                        </label>
+                                    </li>
+                                    <li><input type="radio" name="ques" id="radio2" class="C"><label for="radio2">
+                                        </label>
+                                    </li>
+                                    <li><input type="radio" name="ques" id="radio3" class="D"><label for="radio3">
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+
+                <button onclick="submitQuiz()">Submit</button>
+                <p>Total Score: <span id="score">0</span></p>
+            </main>
+        </div>
+        <script src="game.js"></script>
+    </body>
+
+</html>
